@@ -17,8 +17,8 @@ Fonts are separated by a & */
   --paragraph-font: Noto Seri , Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #2d728f;  /* headlines on a white background */ 
-  --headline-color-on-color: White; /* headlines text on a colored background */ 
+  --headline-color-on-white: #ab3428;  /* headlines on a white background */ 
+  --headline-color-on-color: black; /* headlines text on a colored background */ 
   --paragraph-color-on-white: #f5ee9e; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #f5ee9e; /* paragraph text on a colored background */ 
   --paragraph-background-color: #3b8ea5 ;
