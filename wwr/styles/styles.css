@@ -1,0 +1,69 @@
+header {
+    background-color: #3b8ea5;
+}
+div {
+    max-width: 1600px;
+}
+
+#content {
+    margin:0 auto;
+
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.uotton-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+  
+}
+
+body {
+    background-color:#2d728f ;
+}
+
+nav a:hover {
+    background-color: #f49e4c;
+}
+
+.book {
+    background-color: #3b8ea5;
+
+}
+
+.join {
+    background-color:#3b8ea5 ;
+
+}
+
+#background {
+    background-color:#3b8ea5 ;
+
+}
+.msg {
+    background-color:#3b8ea5 ;
+
+}
+
+footer {
+    background-color:#3b8ea5 ;
+
+}
+
