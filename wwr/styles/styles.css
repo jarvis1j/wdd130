@@ -1,17 +1,34 @@
-header {
-    background-color: #f49e4c;
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Serif&display=swap');
+
+:root {
+    
+    --heading-font: "Kalam";
+    --paragraph-font: Noto Seri , Helvetica, sans-serif;
 }
 
+body {
+    background-color: white;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 
-#content {
-    margin:0 auto;
-    max-width: 1600px;
+header {
+    background-color: #f49e4c;
 }
 
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding:  35px;
+}
+
+#content {
+    margin:0 auto;
+    max-width: 1600px;
 }
 
 #hero-msg h1 {
@@ -30,14 +47,16 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
   
 }
 
-body {
-    background-color: white;
-}
+
 
 nav a:hover {
     background-color: #3b8ea5;
@@ -48,19 +67,31 @@ nav a:hover {
     background-color: #f49e4c;
     color: black;
     text-decoration: none;
-
+    font-family: var(--heading-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover {
+    background-color: #3b8ea5;
     color: white;
 }
+
 .join {
     background-color: #3b8ea5;
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 .join:hover {
-    color: white; 
+    background-color:white;
+    color: #3b8ea5;
 }
 
 #background {
@@ -69,18 +100,27 @@ nav a:hover {
 }
 .msg {
     background-color: #f49e4c;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 .msg h2 {
-    color: black;   
+    color: black;  
+    font-family: var(--heading-font);
+    margin: 0;
 }
+
 .msg p { 
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #f49e4c;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: white;
@@ -98,6 +138,13 @@ footer p a:hover {
 }
 .home-title {
     color:black;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -110,6 +157,7 @@ h4 {
 
 .icon {
     color: #2d728f;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -117,4 +165,30 @@ h4 {
 }
 section {
     text-align: center;
+}
+img {
+    border: 4px solid #3b8ea5
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.river-card {
+    margin-top: 200px;
+}
+
+.camping-card {
+    margin-top: 200px;
+}
+
+.rapids-card {
+    margin-top: 200px;
+}
+.card-img {
+    border: 10px solid #f49e4c;
 }

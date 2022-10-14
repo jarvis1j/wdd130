@@ -1,0 +1,38 @@
+
+
+
+
+
+main {
+ 
+    display: inline-flex;
+    border: solid 25px red;
+}
+img.circles {
+    display: auto 0;
+}
+ 
+img.desk{
+    display: inline-block;
+    border-radius: 25%; 
+    width: 300px;
+}
+
+img.person {
+    display: block;
+    border-radius: 25%; 
+    width: 300px;
+}
+
+    
+img.graphic {
+    display: block;
+    border-radius: 25%; 
+    width: 300px;
+}
+
+body.img {
+    width: 50%;
+    display: inline-flex;
+    border: solid 25px hotpink;
+}
