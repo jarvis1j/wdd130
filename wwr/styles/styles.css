@@ -162,12 +162,13 @@ h4 {
 
 #hero-img {
     width:100%;
+    
 }
 section {
     text-align: center;
 }
 img {
-    border: 4px solid #3b8ea5
+    border: 4px solid #2d728f;
 }
 
 #logo_link {
