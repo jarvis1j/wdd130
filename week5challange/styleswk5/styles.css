@@ -1,12 +1,65 @@
 
 
+html {
+    width: 0 auto;
+    align-items: center;
+}
+
+/*to style the body of the page. For example if you want to center it.*/
+body {
+
+    background-color: gray;
+    width: 1000px
+
+  
+  
+    
+}
+/*for the first image. The > tells CSS to select the first img after the body tag */
+body > img {
+
+width: 0 auto;
+
+    
+
+}
+/*for the styling of where the three images go.*/
+.div {
+ 
+
+}
+/*for the images inside the div. When written like this you select all img inside the div tag*/
+div img{
+    border-radius: 25cm;
+    width: 25%;
+    background-color: gray;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    padding: none;   
+    border: 15px solid rgba(57, 57, 57, 0.915);
+    margin: 25px;
+   
+
+    
+    
+ 
+   
+   
+
+}
 
 
-
+/*
 main {
  
     display: inline-flex;
-    border: solid 25px red;
+    background-color: grey;
+    padding: 25px;
+}
+
+main img {
+    margin: 15px;
 }
 img.circles {
     display: auto 0;
@@ -31,8 +84,9 @@ img.graphic {
     width: 300px;
 }
 
-body.img {
+body .img {
     width: 50%;
     display: inline-flex;
-    border: solid 25px hotpink;
-}
+    
+}*/
+
