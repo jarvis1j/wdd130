@@ -1,0 +1,49 @@
+.home-grid {
+    display: grid;
+    grid-template-columns:
+    1fr 1fr;
+    grid-template-rows: 100px 100px ;
+ 
+}
+
+img {
+    align-self: center;
+    size: 75%;
+    align-self: center;
+    grid-column: 1/1
+    
+    
+}
+
+.tart {
+font-size: 17em;
+grid-column: 1/2;
+grid-row: 1/1;
+z-index: 1;
+align-self: right;
+z-index: 1;
+
+} 
+
+.blank {
+    background-color: gray;
+    font-size:3em;  
+    color: gray;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    text-align: unset;
+ }
+
+h3 {
+    z-index: 1;
+    font-size: 3em;
+    color: darkred;
+    align-self: left;
+    grid-row: 1/2;
+    grid-column: 2/2
+
+    
+
+    
+      
+}
