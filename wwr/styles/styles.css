@@ -117,7 +117,7 @@ h4 {
 }
 .join:hover {
     background-color:white;
-    color: black;
+    color: #f49e4c;
 }
 
 #logo_link {
@@ -206,7 +206,7 @@ footer p {
 }
 
 footer a:hover {
-    color: #f49e4c;
+    color: #2d728f;
 }
 footer p a:hover {
     text-decoration: underline;
