@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Serif&display=swap');
+
+:root {
+    --heading-font: "Kalam";
+    --paragraph-font: Noto Seri , Helvetica, sans-serif;
+}*/
+#background {
+    height: 725px;
+    background-color:#3b8ea5;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr ;
+  
+   
+}
+
+header {
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color: #f49e4c;
+}
+footer {
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color: #f49e4c;
+}
+
+body {
+    background-color: rgb(129, 17, 17);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
